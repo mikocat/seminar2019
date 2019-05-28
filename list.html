@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        function button1Pressed() {
+            var tag = "";
+            tag = "<ul><li>1</li><li>2</li><li>3</li><li>4</li>";
+            document.getElementById("x").innerHTML = tag;
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="button1Pressed()">リスト表示</button>
+    <div id=x></div>
+</body>
